@@ -1,2 +1,36 @@
 h1, h2, h3, h4, h5, p {
   color: #212121 !important; }
+
+@media screen and (max-width: 769px) {
+  nav .navbar-nav img {
+    width: 25px;
+    height: auto;
+    margin: 10px; }
+  .jumbotron {
+    padding: 65px 10px 65px 10px;
+    background-image: url(./assets/section-1-image01.png);
+    background-repeat: no-repeat;
+    background-position: 120% 100%;
+    background-size: 340px; }
+    .jumbotron img {
+      display: none; }
+    .jumbotron h1 {
+      font-size: 3em; }
+  #section-2 input {
+    width: 100%; }
+  #section-2 button {
+    margin: 0; }
+  footer {
+    text-align: center !important;
+    margin: 0;
+    padding: 0; }
+    footer #footer-menu {
+      padding-right: 20px; }
+      footer #footer-menu li {
+        margin: 9px; }
+    footer #footer-logo {
+      padding-top: 35px; }
+    footer #footer-social {
+      padding-right: 55px; }
+    footer p {
+      text-align: center !important; } }
